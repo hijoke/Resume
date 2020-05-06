@@ -117,9 +117,9 @@ main section{
 }
 
 #info{ background: url(img/bg-1.png) fixed; }
-#skills{ background: #f8bd24; }
-#works{ background: url(img/bg-2.png) fixed; }
-#team{ background: url(img/bg-3.png) fixed; }
+#hobby{ background: #f8bd24; }
+#certificates{ background: url(img/bg-2.png) fixed; }
+#Self-evaluation{ background: url(img/bg-3.png) fixed; }
 
 .title{
     margin-bottom: 1em;
@@ -133,21 +133,21 @@ main section{
 #info .title:before{
     content: "\f005";
 }
-#skills .title:before{
+#hobby .title:before{
     content: "\f19d";
 }
-#works .title:before{
+#certificates .title:before{
     content: "\f091";
 }
 #story .title:before{
     content: "\f0b1";
 }
-#team .title:before{
+#Self-evaluation .title:before{
     content: "\f024";
 }
 
-/* - 技能 */
-.skills-icon{
+/* - 爱好 */
+.hobby-icon{
     width: 100px;
     height: 100px;
     margin: 0 auto;
@@ -155,27 +155,27 @@ main section{
     border-radius: 100%;
     box-shadow: 0 5px rgba(0,0,0,0.3);
 }
-.skills-icon:hover i{
+.hobby-icon:hover i{
     transform: rotate(1turn);
 }
-.skills-icon i{
+.hobby-icon i{
     font-size: 50px;
     line-height: 100px;
     transition: transform 0.5s;
 }
-.skills-title{
+.hobby-title{
     margin-top: 1.5em;
     text-align: center;
 }
 
-/* - 作品 */
-.works-item img{
+/* - 证书 */
+.certificates-item img{
     transition: transform 0.3s;
 }
-.works-item img:hover{
+.certificates-item img:hover{
     transform: scale(1.05, 1.05);
 }
-.works-item p{
+.certificates-item p{
     padding: 1em 0;
     text-align: center;
 }
